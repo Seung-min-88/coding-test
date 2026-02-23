@@ -1,4 +1,4 @@
-package StepByStep.Condition;
+package StepByStep.Loop;
 
 import java.io.BufferedReader;
 import java.io.IOException;

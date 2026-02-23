@@ -1,20 +1,19 @@
-package StepByStep.Condition;
+package StepByStep.Loop;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class P2739 {
+public class P25314 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
 
-        int s;
-
-        for (int i = 1; i <= 9; i++) {
-            s = a * i;
-            System.out.println(a + " * " + i + " = " + s);
+        for (int i = 0; i < N; i++) {
+            if (i % 4 == 0) {
+                System.out.print("long ");
+            }
         }
-
+        System.out.println("int");
     }
 }
